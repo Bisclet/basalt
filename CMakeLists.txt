@@ -21,6 +21,7 @@ add_compile_options(-Wno-array-bounds)
 add_compile_options(-Wno-deprecated-declarations)
 add_compile_options(-Wno-missing-template-keyword)
 add_compile_definitions(EIGEN_DONT_VECTORIZE)
+add_compile_options(-Wno-maybe-uninitialized -Wno-uninitialized)
 
 
 
