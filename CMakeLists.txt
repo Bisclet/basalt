@@ -17,6 +17,12 @@ if(DPKG_PROGRAM)
     OUTPUT_STRIP_TRAILING_WHITESPACE)
 endif(DPKG_PROGRAM)
 
+add_compile_options(-Wno-array-bounds)
+add_compile_options(-Wno-deprecated-declarations)
+add_compile_options(-Wno-missing-template-keyword)
+add_compile_definitions(EIGEN_DONT_VECTORIZE)
+
+
 
 find_program(LSB_RELEASE_PROGRAM lsb_release DOC "lsb_release program of Debian-based systems")
 if(LSB_RELEASE_PROGRAM)

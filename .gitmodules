@@ -4,9 +4,6 @@
 [submodule "thirdparty/opengv"]
 	path = thirdparty/opengv
 	url = https://github.com/laurentkneip/opengv.git
-[submodule "thirdparty/Pangolin"]
-	path = thirdparty/Pangolin
-	url = https://github.com/stevenlovegrove/Pangolin.git
 [submodule "thirdparty/ros_comm"]
 	path = thirdparty/ros/ros_comm
 	url = https://github.com/ros/ros_comm.git
